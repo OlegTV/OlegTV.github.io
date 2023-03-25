@@ -1,0 +1,103 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+	box-sizing: inherit;
+}
+body{
+	color: #fff;
+	font-size: 24px;
+	line-height: 26px;
+	font-family: 'Prompt', sans-serif;
+	font-weight: 500;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	max-width: 100%;
+}
+button{
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+}
+.reklama{
+	
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 1px;
+	border: 5px solid green;
+}
+.ukraine__blue{
+	height: 135px;
+	background-color: blue;
+}
+.ukraine__blue-inner{
+	height: 135px;
+	color: white;
+	text-align: center;
+}
+.ukraine__yellow{
+	height: 135px;
+	background-color: yellow;
+}
+.ukraine__yellow-img{
+	background-image: url('../images/fotouk.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 308px;
+	height: 135px;
+	margin-left: 428px;
+}
+.poland__white{
+	height: 135px;
+	background-color: white;
+	color: blue;
+	text-align: center;	
+}
+.poland__red{
+	height: 135px;
+	background-color: red;	
+}
+.poland__red-img{
+	background-image: url('../images/fotopl.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 308px;
+	height: 135px;
+	margin-left: 428px;
+}
+.border{
+	width: 100%;
+	height: 5px;
+	background-color: green;	
+}
+
+@media (max-width: 750px){
+	.ukraine__yellow-img,
+	.poland__red-img{
+		display: none;
+	}
+}
+
+@media (max-width: 540px){
+	body{
+		color: #fff;
+		font-size: 19px;
+		line-height: 21px;
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 400;
+	}
+}
